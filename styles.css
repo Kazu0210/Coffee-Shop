@@ -72,6 +72,7 @@ nav ul li a{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-flow: column;
 }
 #cont-header #background-img{
     position: absolute;
@@ -80,3 +81,34 @@ nav ul li a{
     height: auto;
 }
 
+#cont-tagline{
+    position: relative;
+    background-color: rgba(0, 0, 0, .5);
+    width: 100%;
+    height: 1rem;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cont-tagline h1{
+    color: #fff;
+    font-size: .9rem;
+}
+
+#cont-orderNow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 6rem;
+}
+#cont-orderNow #btn-orderNow{
+    background-color: #FF4000;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: .5rem;
+    padding: 1rem 1.2rem;
+    font-size: 1rem;
+}
