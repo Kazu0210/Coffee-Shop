@@ -16,7 +16,7 @@
             <div id="cont-logo">
                 <h1 id="logo">COFFEE <span style="color: #FF4000;">SHOP</span></h1>
             </div>
-            <nav>
+            <nav id="navlinks">
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
@@ -60,6 +60,12 @@
         </div>
     </div>
 
-
+    <script>
+        window.onload = function(){
+            const navbar = document.getElementById('navlinks');
+            navbar.style.width = '70%';
+            navbar.style.height = '40%'; 
+        }
+    </script>
 </body>
 </html>
