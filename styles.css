@@ -118,3 +118,22 @@ nav ul li a{
     width: 100%;
     height: 100lvh;
 }
+#cont-benefits{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    padding: 1rem 0;
+}
+#cont-benefits span{
+    color: #fff;
+    width: 70%;
+    padding: 1rem;
+}
+#cont-benefits span p{
+    font-size: .9rem;
+}
+#cont-benefits span h3{
+    font-size: 1rem;
+    padding: .3rem 0;
+}
